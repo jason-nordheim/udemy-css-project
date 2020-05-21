@@ -196,3 +196,30 @@ section.packages ul.grid li {
     font-size: 30px;
     margin: 25px 0px;
 }
+
+/* Qoutes section */
+.testimonials .qoute {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 40px 0px 25px;
+}
+
+/* form styles  */
+.contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%; 
+}
+.contact form .btn {
+    padding: 18px 42px;
+}
+.contact form input {
+    padding: 15px;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #555;
+    flex: 1;
+}
