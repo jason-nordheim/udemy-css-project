@@ -1,3 +1,94 @@
+/* media queries */ 
+@media (min-width: 800px) {
+    /* specify the difference between small and large list items */
+    .destinations .grid li.small {
+        flex-basis: 30%;
+    } 
+    .destinations .grid li.large {
+        flex-basis: 70%;
+    }
+    section.packages ul.grid li {
+        padding: 50px;
+        flex-basis: 50%;
+        text-align: center;
+        align-content: center;
+    }
+}
+@media (max-width: 1000px){
+    .contact form input {
+        flex-basis: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+@media (max-width : 1100px){
+    .destinations .grid li.small, 
+    .destinations .grid li.large {
+        flex-basis: 50%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    footer ul li {
+        margin: 0px 8px; 
+    }
+}
+
+@media (max-width: 800px) {
+    section {
+        padding: 100px 20px;
+    }
+    header {
+        padding: 20xp 50px;
+        /* Move the links to display in a column instead of a row */
+        flex-direction: column;  
+    }
+    header h2 {
+        margin-bottom: 15px;
+    }
+    .hero {
+        min-height: 600px;
+    }
+    .hero h1 {
+        font-size: 48px;
+    }
+    .hero h3 {
+        font-size: 24px;
+    }
+    .hero a.btn {
+        padding: 15px 40px;
+    }
+    .destinations .grid li.small, 
+    .destinations .grid li.large {
+        flex-basis: 100%;
+    }
+    .packages .grid li {
+        flex-basis: 100%;
+        padding: 20px 0px; 
+        margin: 10px;
+    }
+    .testimonials .qoute {
+        font-size: 18px;
+        margin: 15px 0px;
+    }
+    .testimonials .authors {
+        font-size: 14px;
+    }
+    section.packages ul.grid li {
+        text-align: center;
+    }
+    section.packages ul.grid li p {
+        text-align: left;
+        margin: 0px;
+    }
+}
+
+
+
 /* General Styles */ 
 * {
     margin: 0;
@@ -172,20 +263,10 @@ section p {
     background-position: center; 
 }
 
-/* specify the difference between small and large list items */
-.destinations .grid li.small {
-    flex-basis: 30%;
-}
 
-.destinations .grid li.large {
-    flex-basis: 70%;
-}
 
 /*  Packages section */
 section.packages ul.grid li {
-    padding: 50px;
-    flex-basis: 50%;
-    text-align: center;
     list-style: none;
 }
 .packages .grid li i {
@@ -241,6 +322,7 @@ footer ul {
 
 footer ul li {
     margin-left: 16px;
+    list-style: none;
 }
 footer p {
     text-transform: uppercase;
