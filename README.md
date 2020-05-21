@@ -9,6 +9,8 @@ This site is meant to model a theoretical outdoor travel agency that specializes
 # Technologies & Concepts Used 
 
 * HTML 
+    * Semantic Tags 
 * CSS 
+    * Flexbox 
     * Animations/Keyframes
-* Responsive Web Design 
+    * Responsive Web Design 
